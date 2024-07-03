@@ -1,21 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-
-<title>Page Title</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio | Rex Iannello</title>
 </head>
-<body>
-  <!-- Load an icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="navbar">
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
-</div>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo.png">
+            <a href="#">Rex Iannello</a>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#sources">Sources</a>
+        </div>
+        <a href="https://github.com/rexiannello" target="_blank">
+        <button><i class="ri-github-fill"></i>
+            
+            My Projects
+        
+        </button>
+        </a>
+    </nav>
+
+    <div class="rex">
+        <div class="left-section">
+            <div class="top">
+                <h2>Rex Iannello</h2>
+                <p>
+                    An outgoing and ambitious high school student.
+                    Eager to use my skills and experiences to help you.
+                </p>
+
+                <div class="buttons">
+                    <a href="#contact">
+                    <button class="doc" >Hire Me Now <i class="ri-arrow-right-line"></i></button></a>
+                    <a href="https://github.com/rexiannello" target="_blank">
+                    <button class="git"><i class="ri-github-fill"></i> My Github</button></a>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Other Socials:</p>
+                <div class="icons">
+                    <i class="ri-youtube-line"></i>
+                    <i class="ri-twitter-x-line"></i>
+                    <i class="ri-linkedin-box-line"></i>
+                    <i class="ri-instagram-line"></i>
+                </div>
+            </div>
+        </div>
+
+        <img src="assets/A7400314.jpg">
+
+    </div>
+
+    <div class="about" id = "about">
+        <h2>About Me</h2>
+        <div class="items">
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/languages.jpeg">
+                    <a href="#">Programming</a>
+                    <p>I have experience using many programming languages including C#, Java, Python, HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/music.JPG">
+                    <a href="#">Music</a>
+                    <p>I am an active member in Castle High School's marching band, jazz bands, and concert bands. I have experience playing saxophone, piano, guitar, and clarinet.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner">
+                    <img src="assets/sail.jpg">
+                    <a href="#">Other</a>
+                    <p> Some of my other hobbies and interests include biking, weight lifting, playing video games, and sailing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <div class="inner">
+            <h2>Projects Showcase</h2>
+            <p class="info">Take a look at some of my notable projects, showcasing my ability to design and develop effective web solutions.</p>
+            <a href="https://github.com/rexiannello" target="_blank">
+                <button>
+                    Explore my projects 
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </a>
+            <div class="items">
+                <div class="item">
+                    <i class="ri-shopping-bag-4-line"></i>
+                    <a href="#">CYOA Game</a>
+                    <p>Developed a Choose Your Own Adventure game about pirates and cowboys.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-id-card-line"></i>
+                    <a href="#">Music Reccomendation</a>
+                    <p>Designed and built a website to reccomend music based on genre preferences.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-apps-line"></i>
+                    <a href="#">Rock Paper Scissors</a>
+                    <p>Created a Rock Paper Scissors game with randomly generated computer actions.</p>
+                </div>
+                <div class="item">
+                    <i class="ri-news-line"></i>
+                    <a href="#">Enigma Machine</a>
+                    <p>Built a fully function digital recreation of the German Enigma Machine in Python. (outside of Catapult)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="contact" id = "contact">
+        <h2>Contact</h2>
+        <div class="items">
+            <div class="item">
+                <a href="#">Send me an email</a>
+                <p>Email me about how I can help you.</p>
+                <button>Send Email</button>
+            </div>
+            <div class="item">
+                <a href="#">Schedule a call</a>
+                <p>Let's discuss the kind of work I can do for you.</p>
+                <button>Call Me</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links" id = "sources">
+            <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+            <a href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" target="_blank">cloudflare</a>
+            <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank">cloudflare</a>
+        </div>
+        <p>© 2024 Rex Iannello</p>
+    </footer>
+
 </body>
+
 </html>
